@@ -1,0 +1,21 @@
+// This program requires input from user to select colour. 
+
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	char colour;
+	cout << "Please enter your chosen colour (G/B) : ";
+	cin >> colour;
+
+	if (colour == 'G')
+		cout << "\nYou choose green colour";
+	else
+		cout << "\nYou choose blue colour";
+	if (colour != 'G')
+		cout << "\nYou have not chosen green colour";
+}
+
+
+
